@@ -16,9 +16,21 @@ public class Producer {
         this.feature = builder.feature;
     }
 
+    public int getAge() {
+        return age;
+    }
+
+    public String getFeature() {
+        return feature;
+    }
+
+    public String getName() {
+        return name;
+    }
+
     @Override
     public String toString() {
-        return "Builder{" +
+        return "Producer{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", feature='" + feature + '\'' +
