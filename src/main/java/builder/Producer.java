@@ -20,6 +20,10 @@ public class Producer {
         return age;
     }
 
+    public String getName() {
+        return name;
+    }
+
     @Override
     public String toString() {
         return "Producer{" +
