@@ -16,6 +16,10 @@ public class Producer {
         this.feature = builder.feature;
     }
 
+    public String getName() {
+        return name;
+    }
+
     @Override
     public String toString() {
         return "Producer{" +
