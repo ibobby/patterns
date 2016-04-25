@@ -20,6 +20,10 @@ public class Producer {
         return age;
     }
 
+    public String getFeature() {
+        return feature;
+    }
+
     public String getName() {
         return name;
     }
